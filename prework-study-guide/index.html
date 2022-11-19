@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
-      <h1>Prework Study Guide</h1>
+      <h1 style="color:red;">Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <ul>
             <li>The head element contains information about the webpage.</li>
             <li>Headings are size h1 (biggest) up to h6 (smallest).</li>
             <li>Title element in head appears in tab.</li>
@@ -23,14 +23,17 @@
             <li>link, meta and script element embeds client-side scripts in the HTML document.</li>
             <li>The body element represents the visible content shown to the user.</li>
             <li>Header element appears at the top of the page and usually contains a navigation menu and/or introductory content. In our case, it holds an h1 heading, up to h6.</li>
-            
-          </ul>
         </ul>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Inline CSS:   h1 style="color:red;"-Prework Study Guide-/h1   --   change the color of a single h1 heading</li>
+          <li>Internal CSS style sheet:   -head> style> h1 { color: red;} /style> /head>   --  all h1> elements on the webpage will be red/h1></li>
+          <li>External CSS style sheet:   link the file using a -link> element placed in the HTML's -head>:   -head>  -link rel="stylesheet" href="./assets/style.css" />  -/head></li>
+          <li>Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
